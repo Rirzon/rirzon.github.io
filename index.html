@@ -5,33 +5,61 @@
   <title>Rirzon</title>
   <style>
     body {
-      background-color: #0d0d0d;
-      color: #ffffffcc;
-      font-family: sans-serif;
-      text-align: center;
-      margin-top: 20%;
+      background-color: #0a0a0a;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .avatar {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 3px solid #1a1a1a;
+      box-shadow: 0 0 12px #000000cc;
+      object-fit: cover;
     }
     h1 {
-      font-size: 48px;
+      margin-top: 20px;
+      font-size: 36px;
+      letter-spacing: 1px;
     }
     p {
-      font-size: 18px;
       color: #888;
+      font-size: 18px;
+      margin-top: 5px;
+      margin-bottom: 25px;
     }
-    a {
-      color: #00ffcc;
-      margin: 10px;
+    .links a {
+      display: inline-block;
+      margin: 0 12px;
+      padding: 8px 16px;
+      background-color: #111;
+      color: #00ffc3;
+      border: 1px solid #00ffc3;
+      border-radius: 6px;
       text-decoration: none;
-      font-size: 16px;
+      font-size: 15px;
+      transition: 0.3s ease;
+    }
+    .links a:hover {
+      background-color: #00ffc3;
+      color: #111;
     }
   </style>
 </head>
 <body>
+  <img class="avatar" src="avatar.png" alt="Rirzon Image">
   <h1>Rirzon</h1>
-  <p>Welcome to my official site.</p>
-  <a href="https://discord.com">Discord</a>
-  <a href="https://kick.com">Kick</a>
-  <a href="https://twitch.tv">Twitch</a>
+  <p>Calm. Creative. Lost in the forest of thought.</p>
+  <div class="links">
+    <a href="https://discord.com" target="_blank">Discord</a>
+    <a href="https://kick.com" target="_blank">Kick</a>
+    <a href="https://twitch.tv" target="_blank">Twitch</a>
+  </div>
 </body>
 </html>
-
